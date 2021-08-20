@@ -11,4 +11,9 @@ public class VasoDeCafe {
 	public boolean estaLleno() {
 		return this.lleno;
 	}
+
+	@Override
+	public String toString() {
+		return "VasoDeCafe [lleno=" + lleno + "]";
+	}
 }

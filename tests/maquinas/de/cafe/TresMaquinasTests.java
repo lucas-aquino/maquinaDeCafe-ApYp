@@ -23,7 +23,12 @@ public class TresMaquinasTests {
 
 	@Test
 	public void test() {
-		
+		for (MaquinaDeCafe cadaUna : maquinas) {
+			System.out.println(cadaUna.servirCafe());
+		}
+		for (MaquinaDeCafe cadaUna : maquinas) {
+			System.out.println(cadaUna.servirCafe());
+		}
 	}
 
 }
